@@ -1,122 +1,969 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="icon" href="image/logo.png">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
     <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yesteryear&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <title>Document</title>
+
 </head>
+
 <body>
-    <div class="header1">
-        <div class="content1">
-            <h2>Women's Clothing</h2>
-        </div>
 
-        <div class="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./menus.html">Our Shop</a></li>
-            
-            <li><a href="./contact.html">Contact us</a></li>
-        </div>
+    <!-- NAVBAR -->
 
-        <div class="logo">
-            <i class="fa-regular fa-user"></i>
-            <i class="fa-duotone fa-thin fa-heart"></i>
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-    </div>
-      <!-- container1 -->
-   <div class="container1">
-    <section class="hero">
-        <div class="content">
-            <h1>New Fashion Dress</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nulla?</p>
-            <div class="button">
-                <h3>Buy Now</h3>
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                HAY!
             </div>
 
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
+                <li><a href="./menus.html">Shop</a></li>
+                <li><a href="./Ordernow.html">Order Now</a></li>
+                <li><a href="./about.html">Track Order</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+            </ul>
+
+            <div class="icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="marquee">
+        <marquee behavior="" direction="">
+            <span style="margin-right:100px;">Welcome to our Shop!</span>
+            <span style="margin-right:100px;">Latest offers available now.</span>
+            <span style="margin-right:100px;">Free shipping on orders above ₹999.</span>
+            <span style="margin-right:100px;">New products launched today.</span>
+            <span style="margin-right:100px;">Contact us for support.</span>
+        </marquee>
+    </div>
+
+
+    <!-- container1 -->
+
+    <div class="banner-container">
+
+        <div class="banner">
+            <img src="./image/darkblue banner1.png" alt="">
+            <div class="banner-text">
+                <h1>Hay's Clothing!!</h1>
+                <p>Comfort | Flexibility | Style</p>
+                <p>Fresh Styles Everyday</p>
+                <button>Shop Now</button>
+            </div>
         </div>
 
-        <img src="./image/dress1.jpg" alt="">
-
-    </section>
-   </div>
-
-   <!-- container2 -->
-
-   <div class="container2">
-    <div class="collection">
-        <h1>Collections</h1>
     </div>
-    
-     
-    
 
-     <div class="cards">
-       
-            <div class="card">
-                <img src="./image/dress2.webp" alt="">
-            
-                    <h3>Price:$550</h3>
-                
-                 <div class="button2">
-                    <h3>Buy Now</h3>
+
+    <!-- container2 -->
+
+    <div class="container2">
+        <div class="category">
+            <div class="category-card">
+                <div class="category-imgbox">
+                    <img src="./image/best seller.jpg">
                 </div>
-                
+            </div>
+            <div class="category-card">
+                <div class="category-imgbox">
+                    <img src="image/cholii.jpg">
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-imgbox">
+                    <img src="./image/kurti set.webp">
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-imgbox">
+                    <img src="./image/online exclusive.jpeg">
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-imgbox">
+                    <img src="./image/new arrival.webp">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner -->
+
+    <div class="featured-banner">
+
+        <div>
+            <h2>Festive Collection</h2>
+            <button class="btn_exp">Explore</button>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- container3 -->
+
+    <div class="container3">
+
+        <section class="products">
+
+            <h2>New Arrivals</h2>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="./image/printed kurta.jpg">
+
+                    <h3>Printed Kurta</h3>
+
+                    <p>₹999</p>
+
+                    <button class="arrivals-button">Add To Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="./image/dress3.webp">
+
+                    <h3>Summer Dress</h3>
+
+                    <p>₹1299</p>
+
+                    <button class="arrivals-button">Add To Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="./image/kurti.jpg">
+
+                    <h3>Casual Kurti</h3>
+
+                    <p>₹899</p>
+
+                    <button class="arrivals-button">Add To Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="./image/floral.webp">
+
+                    <h3>Floral Dress</h3>
+
+                    <p>₹1499</p>
+
+                    <button class="arrivals-button">Add To Cart</button>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <div class="collection-container">
+
+        <h1>More collections to explore</h1>
+
+        <div class="collection-wrapper">
+
+            <div class="card">
+                <img src="./image/dress1.jpg" alt="">
+                <div class="card-info">
+                    <span> Dresses</span>
+                    <span>→</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://i.pinimg.com/736x/d3/94/21/d394212c694809cef34a058daf38d39a.jpg" alt="">
+                <div class="card-info">
+                    <span>Western Wear</span>
+                    <span>→</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/81KvFQPge+L._AC_UY1100_.jpg" alt="">
+                <div class="card-info">
+                    <span>Co-Ords</span>
+                    <span>→</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./image/knee length.jpg" alt="">
+                <div class="card-info">
+                    <span>Knee Length Tops</span>
+                    <span>→</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./image/short kurti.jpg" alt="">
+                <div class="card-info">
+                    <span>Short Kurti</span>
+                    <span>→</span>
+                </div>
             </div>
 
             <div class="card">
-                <img src="./image/dress3.webp " alt="">
-                
-                    <h3> Price : $500</h3>
-                
-                <div class="button2">
-                    <h3>Buy Now</h3>
+                <img src="./image/festive.jpg" alt="">
+                <div class="card-info">
+                    <span>Festive Wear</span>
+                    <span>→</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./image/dress8.jpg" alt="">
+                <div class="card-info">
+                    <span>Lehanga</span>
+                    <span>→</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./image/top1.webp" alt="">
+                <div class="card-info">
+                    <span>Crop tops</span>
+                    <span>→</span>
                 </div>
             </div>
 
             <div class="card">
                 <img src="./image/dress4.webp" alt="">
-                
-                    <h3>Price : $450 </h3>
-                
-                 <div class="button2">
-                    <h3>Buy Now</h3>
+                <div class="card-info">
+                    <span>Resort Wear</span>
+                    <span>→</span>
                 </div>
             </div>
 
             <div class="card">
-                <img src="./image/dress5.jpg" alt="">
-               
-                 <h3>Price : $500</h3>
-               
-                <div class="button2">
-                    <h3>Buy Now</h3>
+                <img src="https://assets.myntassets.com/assets/images/2025/JULY/7/xsCXyEcZ_4ce3c09561364546b6e098fed84e2c00.jpg"
+                    alt="">
+                <div class="card-info">
+                    <span>Jeans </span>
+                    <span>→</span>
                 </div>
             </div>
-        </div>
-</div>
-<!-- container3 -->
- <div class="container3">
-    <div class="collection">
-        <h3>Get discounts and gifts every week!</h3>
-    </div>
-    <div class="forms">
 
-    <form action="">
-       <label for="mail">Email:</label> 
-    <input type="text" id="email" name="email" placeholder="Enter your mail"> <br><br>
-   <input type="checkbox" >
-   <label for="checkbox">I agree that my data will be stored and handled according to the <a href="#">Privacy policy</a> </label>
-    </form>
+        </div>
+
+        <div class="view">
+            <h3>View More</h3>
+        </div>
+
+    </div>
+
+    <!-- last container -->
+    <div class="prod-container">
+
+        <div class="prod-card">
+
+            <div class="image-box1">
+
+                <img src="./image/kurti10.webp" alt="">
+
+                <div class="overlay">
+
+                    <h2>Style Highlights</h2>
+
+                    <p>Fabric</p>
+                    <h3>Viscose</h3>
+
+                    <p>Length</p>
+                    <h3>46"</h3>
+
+                    <p>Technique</p>
+                    <h3>Printed</h3>
+
+                </div>
+
+            </div>
+
+            <div class="details">
+
+                <p class="price">₹ 1,599</p>
+
+                <div class="sizes">
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                    <span>XXL</span>
+                </div>
+
+                <a href="./Ordernow.html"> 
+                     <button class="arrivals-button">Buy Now</button>
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <div class="prod-card">
+
+            <div class="image-box1">
+
+                <img src="./image/kurti13.jpg" alt="">
+
+                <div class="overlay">
+
+                    <h2>Style Highlights</h2>
+
+                    <p>Fabric</p>
+                    <h3>Cotton</h3>
+
+                    <p>Length</p>
+                    <h3>44"</h3>
+
+                    <p>Technique</p>
+                    <h3>Printed</h3>
+
+                </div>
+
+            </div>
+
+            <div class="details">
+
+                <p class="price">₹ 899</p>
+
+                <div class="sizes">
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                    <span>XXL</span>
+                </div>
+
+                 <a href="./Ordernow.html"> 
+                     <button class="arrivals-button">Buy Now</button>
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="prod-card">
+
+            <div class="image-box1">
+
+                <img src="https://anvicouture.com/cdn/shop/files/2_12_202512_00_30AM.jpg?crop=center&height=2340&v=1739349108&width=1672"
+                    alt="">
+
+                <div class="overlay">
+
+                    <h2>Style Highlights</h2>
+
+                    <p>Fabric</p>
+                    <h3>Rayon</h3>
+
+                    <p>Length</p>
+                    <h3>45"</h3>
+
+                    <p>Technique</p>
+                    <h3>Embroidered</h3>
+
+                </div>
+
+            </div>
+
+            <div class="details">
+
+                <p class="price">₹ 1,299</p>
+
+                <div class="sizes">
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                    <span>XXL</span>
+                </div>
+
+                 <a href="./Ordernow.html"> 
+                     <button class="arrivals-button">Buy Now</button>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="prod-card">
+
+            <div class="image-box1">
+
+                <img src="./image/floral.webp" alt="">
+
+                <div class="overlay">
+
+                    <h2>Style Highlights</h2>
+
+                    <p>Fabric</p>
+                    <h3>Rayon</h3>
+
+                    <p>Length</p>
+                    <h3>45"</h3>
+
+                    <p>Technique</p>
+                    <h3>Embroidered</h3>
+
+                </div>
+
+            </div>
+
+            <div class="details">
+
+                <p class="price">₹ 1,299</p>
+
+                <div class="sizes">
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                    <span>XXL</span>
+                </div>
+
+                 <a href="./Ordernow.html"> 
+                     <button class="arrivals-button">Buy Now</button>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 50% offer -->
+
+    <div class="offer-heading">
+        <h2>Special Offer For This Premium!!</h2>
+    </div>
+
+    <div class="offer-container">
+
+        <div class="offer-card">
+
+            <div class="offer-badge">
+                50% OFF
+            </div>
+
+            <div class="offer-box">
+                <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600" alt="Dress">
+            </div>
+
+            <div class="content">
+                <h2> Casual Gown</h2>
+
+                <div class="price">
+                    <span class="old-price">₹2,999</span>
+                    <span class="new-price">₹1000</span>
+                </div>
+
+                <a href="./Ordernow.html">
+                    <button class="btn_buy">Buy Now</button>
+                </a>
+            </div>
+
+        </div>
+        <div class="offer-card">
+
+            <div class="offer-badge">
+                50% OFF
+            </div>
+
+            <div class="offer-box">
+                <img src="https://images.cbazaar.com/images/Orange-Chinon-Silk-Embroidered-Stone-Sequins-Indowestern-Palazzo-Suit-IWSUSCC55975741-pl.jpg"
+                    alt="Dress">
+            </div>
+
+            <div class="content">
+                <h2> Tops & Tunic</h2>
+
+                <div class="price">
+                    <span class="old-price">₹1,999</span>
+                    <span class="new-price">₹999</span>
+                </div>
+
+                <a href="./Ordernow.html">
+                    <button class="btn_buy">Buy Now</button>
+                </a>
+            </div>
+
+        </div>
+        <div class="offer-card">
+
+            <div class="offer-badge">
+                50% OFF
+            </div>
+
+            <div class="offer-box">
+                <img src="https://www.anokhifashions.com/VendorAssets/1033/StoreImages/medium/1245YUVIKAMUSTARD.jpg"
+                    alt="Dress">
+            </div>
+
+            <div class="content">
+                <h2> Sharwani</h2>
+
+                <div class="price">
+                    <span class="old-price">₹3,999</span>
+                    <span class="new-price">₹2000</span>
+                </div>
+
+                <a href="./Ordernow.html">
+                    <button class="btn_buy">Buy Now</button>
+                </a>
+            </div>
+
+        </div>
+        <div class="offer-card">
+
+            <div class="offer-badge">
+                50% OFF
+            </div>
+
+            <div class="offer-box">
+                <img src="./image/offer3.webp" alt="Dress">
+            </div>
+
+            <div class="content">
+                <h2> Top & Palazo</h2>
+
+                <div class="price">
+                    <span class="old-price">₹2,999</span>
+                    <span class="new-price">₹1000</span>
+                </div>
+
+                <a href="./Ordernow.html">
+                    <button class="btn_buy">Buy Now</button>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="offer-card">
+
+            <div class="offer-badge">
+                50% OFF
+            </div>
+
+            <div class="offer-box">
+                <img src="https://cdn.shopaccino.com/nakhrali/products/278-275326653744112_m.jpg?v=718  " alt="Dress">
+            </div>
+
+            <div class="content">
+                <h2> Sleeveless Gown</h2>
+
+                <div class="price">
+                    <span class="old-price">₹2,555</span>
+                    <span class="new-price">₹1500</span>
+                </div>
+
+                <a href="./Ordernow.html">
+                    <button class="btn_buy">Buy Now</button>
+                </a>
+            </div>
+
+        </div>
+        <div class="offer-card">
+
+            <div class="offer-badge">
+                50% OFF
+            </div>
+
+            <div class="offer-box">
+                <img src="./image/offer6.webp" alt="Dress">
+            </div>
+
+            <div class="content">
+                <h2> Sharwani</h2>
+
+                <div class="price">
+                    <span class="old-price">₹2,999</span>
+                    <span class="new-price">₹2500</span>
+                </div>
+
+                <a href="./Ordernow.html">
+                    <button class="btn_buy">Buy Now</button>
+                </a>
+            </div>
+
+        </div>
+        <div class="offer-card">
+
+            <div class="offer-badge">
+                50% OFF
+            </div>
+
+            <div class="offer-box">
+                <img src="./image/offer7.jpg" alt="Dress">
+            </div>
+
+            <div class="content">
+                <h2> Gown</h2>
+
+                <div class="price">
+                    <span class="old-price">₹2,599</span>
+                    <span class="new-price">₹1800</span>
+                </div>
+
+                <a href="./Ordernow.html">
+                    <button class="btn_buy">Buy Now</button>
+                </a>
+            </div>
+
+        </div>
+        <div class="offer-card">
+
+            <div class="offer-badge">
+                50% OFF
+            </div>
+
+            <div class="offer-box">
+                <img src="./image/offer8.jpg" alt="Dress">
+            </div>
+
+            <div class="content">
+                <h2> Choli</h2>
+
+                <div class="price">
+                    <span class="old-price">₹4,999</span>
+                    <span class="new-price">₹3000</span>
+                </div>
+
+                <a href="./Ordernow.html">
+                    <button class="btn_buy">Buy Now</button>
+                </a>
+            </div>
+
+        </div>
+        <div class="offer-card">
+
+            <div class="offer-badge">
+                50% OFF
+            </div>
+
+            <div class="offer-box">
+                <img src="./image/offer9.webp" alt="Dress">
+            </div>
+
+            <div class="content">
+                <h2> Knot Gown</h2>
+
+                <div class="price">
+                    <span class="old-price">₹2,999</span>
+                    <span class="new-price">₹1900</span>
+                </div>
+
+                <a href="./Ordernow.html">
+                    <button class="btn_buy">Buy Now</button>
+                </a>
+            </div>
+
+        </div>
+        <div class="offer-card">
+
+            <div class="offer-badge">
+                50% OFF
+            </div>
+
+            <div class="offer-box">
+                <img src="./image/offer10.webp" alt="Dress">
+            </div>
+
+            <div class="content">
+                <h2> Top & Skirt</h2>
+
+                <div class="price">
+                    <span class="old-price">₹2,999</span>
+                    <span class="new-price">₹1500</span>
+                </div>
+
+                <a href="./Ordernow.html">
+                    <button class="btn_buy">Buy Now</button>
+                </a>
+            </div>
+
+        </div>
+        <div class="offer-card">
+
+            <div class="offer-badge">
+                50% OFF
+            </div>
+
+            <div class="offer-box">
+                <img src="./image/offer11.jpg" alt="Dress">
+            </div>
+
+            <div class="content">
+                <h2> Lehanga</h2>
+
+                <div class="price">
+                    <span class="old-price">₹2,999</span>
+                    <span class="new-price">₹2300</span>
+                </div>
+
+                <a href="./Ordernow.html">
+                    <button class="btn_buy">Buy Now</button>
+                </a>
+            </div>
+
+        </div>
+        <div class="offer-card">
+
+            <div class="offer-badge">
+                50% OFF
+            </div>
+
+            <div class="offer-box">
+                <img src="./image/offer12.avif" alt="Dress">
+            </div>
+
+            <div class="content">
+                <h2> Sharwani</h2>
+
+                <div class="price">
+                    <span class="old-price">₹3099</span>
+                    <span class="new-price">₹2500</span>
+                </div>
+
+                <a href="./Ordernow.html">
+                    <button class="btn_buy">Buy Now</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- choose us -->
+    <div class="choose_container">
+
+        <div class="choose-h3">
+            <h3>Why Choose Us</h3>
+        </div>
+
+        <div class="feature-card">
+
+            <div class="features-card">
+                <h3>Free Shipping</h3>
+                <p>On all orders</p>
+            </div>
+            <div class="features-card">
+                <h3>Easy Returns</h3>
+                <p>7 Day Return Policy</p>
+            </div>
+            <div class="features-card">
+                <h3>Secure Payment</h3>
+                <p>100% Protected</p>
+            </div>
+
+            <div class="features-card">
+                <h3>Affordable Prices</h3>
+                <p>Enjoy fashionable outfits at prices that fit your budget</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!--  statitics-->
+    <div class="choose_container">
+
+        <div class="choose-h3">
+            <h3>Statistics</h3>
+        </div>
+
+        <div class="feature-card">
+
+            <div class="features-card">
+                <h3>4L+</h3>
+                <p>Happy Customers</p>
+            </div>
+            <div class="features-card">
+                <h3>500+</h3>
+                <p>Styles</p>
+            </div>
+            <div class="features-card">
+                <h3>50+</h3>
+                <p>Cities Served</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- review -->
+    <div class="choose_container">
+
+        <div class="choose-h3">
+            <h3>Customers Reviews</h3>
+        </div>
+
+        <div class="feature-card">
+
+            <div class="features-card">
+                <h3>★★★★★</h3>
+                <p>Excellent quality and fast delivery.</p>
+            </div>
+            <div class="features-card">
+                <h3>★★★★★</h3>
+                <p>The Quality of the dress is Top Notch worth for money...go for it</p>
+            </div>
+            <div class="features-card">
+                <h3>★★★★★</h3>
+                <p>I received earlier and the Price according to the product is good surely go for it</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="view1">
+        <h3>View More</h3>
+    </div>
+
+    <!--  -->
+
+
+    <div class="container3">
+
+        <section class="products">
+
+
+            <div class="product-grid">
+
+                <div class="product1-card">
+                    <img src="./image/delivery.jpg">
+                    <h3>Early delivery!!</h3>
+                    <p>We ensure your orders reach you quickly and safely, right on time.</p>
+                </div>
+
+                <div class="product1-card">
+                    <img src="./image/export.jpg">
+
+                    <h3>Exporting</h3>
+
+                    <p>Exporting premium fashion products worldwide with reliable service.</p>
+
+                </div>
+                <div class="product1-card">
+                    <img src="./image/quality.webp">
+
+                    <h3>Quality Check</h3>
+
+                    <p>Before delivery our agents check the Quality and Fabric</p>
+
+                </div>
+
+                <!-- <div class="product1-card">
+                    <img src="./image/team.webp">
+
+                    <h3>Team Work</h3>
+
+                    <p>Together, we achieve more by supporting each other and working toward a common goal</p>
+
+
+                </div> -->
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+
+    <!-- FOOTER -->
+
+<div class="footer1-container">
+
+    <div class="footer1-content">
+
+        <!-- Shipping Info -->
+
+        <div class="footer1-column">
+            <h3>Shipping Info</h3>
+
+            <p>Payments</p>
+            <p>Shipping & Exchange</p>
+            <p>Bulk Queries</p>
+            <p>Terms & Conditions</p>
+            <p>Privacy Policy</p>
+        </div>
+
+        <!-- Company -->
+
+        <div class="footer1-column">
+            <h3>The Company</h3>
+
+            <p>About</p>
+            <p>Our Company</p>
+            <p>Contact Us</p>
+        </div>
+
+        <!-- My Account -->
+
+        <div class="footer1-column">
+            <h3>My Account</h3>
+
+            <p>Track Order</p>
+            <p>Exchange Request</p>
+        </div>
+
+        <!-- Social Icons -->
+
+        <div class="footer1-social">
+            <h3>Follow Us</h3>
+
+            <div class="social1-icons">
+                
+                    <i class="fa-brands fa-facebook-f"></i>
+            
+
+            
+                    <i class="fa-brands fa-instagram"></i>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="footer1-bottom">
+        <p>© 2025 Fashion Store. All Rights Reserved.</p>
+    </div>
+
 </div>
-</div>
-<!-- container4 -->
-<div class="footer">
-    <footer style="background-color: black; color: white;">@copy all Rights are reserved. <br> for queries:9176416389/972537311</footer>
-</div>
+
+
+
+
+
+
 </body>
+
 </html>

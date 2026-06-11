@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./pagestyle.css">
-   <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Fashion Store</title>
+    <title>Fashion Store</title> 
     <link rel="icon"   href="image/logo.png">
+     <link rel="stylesheet" href="./pagestyle.css">
+     <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!-- poppins -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- NAVBAR -->
 
-
-    
 <header>
     <nav class="navbar">
 
@@ -23,7 +24,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         </div>
 
         <ul class="nav-links">
-              <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html">Home</a></li>
             <li><a href="./aboutus.html">About Us</a></li>
             <li><a href="./menus.html">Shop</a></li>
             <li><a href="./Ordernow.html">Order Now</a></li>
@@ -41,9 +42,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     </nav>
 </header>
 
+
 <div class="marquee">
     <marquee behavior="" direction="">
-     <span style="margin-right:100px;">Welcome to our website!</span>
+     <span style="margin-right:100px;">Welcome to our Shop!</span>
     <span style="margin-right:100px;">Latest offers available now.</span>
     <span style="margin-right:100px;">Free shipping on orders above ₹999.</span>
     <span style="margin-right:100px;">New products launched today.</span>
@@ -51,58 +53,88 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     </marquee>
 </div>
 
-    <div class="track-banner">
-    <h1>Track Your Order</h1>
-    <p>Stay updated with your shipment status in real time.</p>
-</div>
 
-<div class="track-card">
+        <!-- registration -->
+ 
+<div class="container">
 
-    <h2>Enter Order Details</h2>
+    <div class="order-box">
 
-    <input type="text" placeholder="Order ID">
+        <h1> Order Now</h1>
 
-    <input type="email" placeholder="Email Address">
+        <form>
+             
+             <div class="row">
+                <div class="field">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name">
+                </div>
+                
+                <div class="field">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="Enter your phone number">
+                </div>
 
-    <button>Track Order</button>
+             </div>
 
-</div>
-
-<div class="timeline-container">
-
-    <div class="status-container">
-
-        <div class="status-step">
-            <div class="circle">✓</div>
-            <div>
-                <h3>Order Placed</h3>
-                <p>Your order has been successfully placed.</p>
+            <div class="input-group">
+                <label>Dress Type</label>
+                <select>
+                    <option>Select</option>
+                    <option>Tops & Tunics</option>
+                    <option>Western Wears</option>
+                    <option>Lehangas</option>
+                    <option>Party Wear</option>
+                </select>
             </div>
-        </div>
 
-        <div class="status-step">
-            <div class="circle">✓</div>
-            <div>
-                <h3>Processing</h3>
-                <p>Your order is being prepared.</p>
+            <div class="input-group">
+                <label>Quantity</label>
+                <input type="number" min="1">
             </div>
-        </div>
 
-        <div class="status-step">
-            <div class="circle1">3</div>
-            <div>
-                <h3>Shipped</h3>
-                <p>Your package has been dispatched.</p>
+            <div class="payment">
+                <label>Payment Method :</label> <br>
+                <label><input type="radio" name="pay">COD</label> <br>
+                <label><input type="radio" name="pay">GPay</label> <br>
+                <label><input type="radio" name="pay">PhonePe</label>
             </div>
-        </div>
 
-        <div class="status-step">
-            <div class="circle1">4</div>
-            <div>
-                <h3>Delivered</h3>
-                <p>Expected delivery in 2 days.</p>
+            <div class="input-group">
+                <label>Address</label>
+                <textarea rows="3"></textarea>
             </div>
-        </div>
+
+            <div class="row">
+
+                <div class="field">
+                    <label>City</label>
+                    <input type="text">
+                </div>
+
+                <div class="field">
+                    <label>State</label>
+                    <input type="text">
+                </div>
+
+                 <div class="field">
+                    <label>Area</label>
+                    <input type="text">
+                </div>
+
+            </div>
+
+            <div class="input-group">
+                <label>Feedback</label>
+                <textarea rows="3"></textarea>
+            </div>
+
+            <div class="butt">
+                <h3>Order Now</h3>
+            </div>
+
+           
+        </form>
 
     </div>
 
@@ -111,40 +143,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 
 
-<div class="help-container">
-
-    <div class="help-card">
-        <h3>Shipping Information</h3>
-        <p>Learn about delivery timelines.</p>
-    </div>
-
-    <div class="help-card">
-        <h3>Exchange Request</h3>
-        <p>Request an exchange easily.</p>
-    </div>
-
-    <div class="help-card">
-        <h3>Customer Support</h3>
-        <p>We're here to help.</p>
-    </div>
-
-</div>
-
-<div class="support-box">
-
-    <h2>Need Assistance?</h2>
-
-    <p>
-        If you're unable to track your order,
-        please contact our support team.
-    </p>
-
-    <button>Contact Support</button>
-
-</div>
-
-
-<!-- container4 -->
+<!-- FOOTER -->
 
 <div class="footer-container">
 
@@ -202,23 +201,12 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     <hr>
 
     <div class="footer-bottom">
-        <p>© 2025 Fashion Store. All Rights Reserved.</p>
+        <p>© 2025 Fashion Store. All Rights Reserved. </p>
     </div>
 
 </div>
 
 
 
-</div>
-    
-
-
-
-
-
-
-
-
-      
 </body>
 </html>
