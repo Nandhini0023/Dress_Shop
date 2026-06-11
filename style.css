@@ -533,11 +533,14 @@ margin:15px 0;
 }
 .features-card{
 box-shadow:0 3px 12px rgba(0,0,0,0.1);
-padding:30px; height: 200px;
+padding:30px; 
+/* height: 200px; */
 border-radius:10px;
-width: 400px;  color: darkred;
+width: 400px;  
+color:#4f1288;
 position: relative;
 overflow: hidden;transition: 0.8s;
+/* border: 2px solid red */
 }
 .features-card h3{
      font-size: 25px;
@@ -554,7 +557,6 @@ overflow: hidden;transition: 0.8s;
     position: absolute;
     top: 0;left: 0; 
     width: 0;height: 100%;
-     background: linear-gradient(yellow,red);
     transition: 1s ease;z-index: -1;
 }
 .features-card:hover::before{
@@ -562,7 +564,8 @@ overflow: hidden;transition: 0.8s;
 }
 .features-card:hover{
     transform: translatey(-10px) scale(1.03);transition: 0.4s;
-     background: linear-gradient(yellow,red);
+     background: #22043e;
+     color: white;
         
 }
 
